@@ -3,11 +3,16 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import AddProduct from './component/AddProduct';
+import SearchProduct from './component/SearchProduct';
 
 function App() {
   return (
+  <div>
     
-<AddProduct/>
+    <AddProduct/>
+    <SearchProduct/>
+    
+  </div>
 
   );
 }
